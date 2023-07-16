@@ -1,0 +1,27 @@
+/* .navbarClass {
+  margin-bottom: 30px;
+  background-color: rgb(34, 40, 49);
+}
+
+#contain {
+  color: rgb(238, 238, 238);
+} */
+
+.navbarClass {
+  background-color: #343a40;
+}
+
+#contain {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbarClass a {
+  color: #fff;
+  margin-right: 1rem;
+  text-decoration: none;
+}
+
+.navbarClass a:hover {
+  color: #ccc;
+}
