@@ -1,4 +1,4 @@
-.button {
+/* .button {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -23,5 +23,47 @@
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
     transform: scale(1.05);
     transition: transform 0.5s ease;
+  } */
+  
+  .button {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 10px;
+  }
+  
+  /* .mainCard {
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.5s ease;
+  } */
+  
+  .mainCard:hover {
+    background-color: #f0f0f0;
+    /* background-color: aqua; */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+  }
+  
+  .cardImg {
+    width: 200px;
+    height: 200px;
+    /* object-fit: cover; */
+  }
+  
+  .buttonModal:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+    transition: transform 0.5s ease;
+  }
+  
+  .mainCard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
   }
   

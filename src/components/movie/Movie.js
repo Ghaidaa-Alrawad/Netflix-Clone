@@ -32,6 +32,8 @@ function Movie(props) {
           </div>
         </Card.Body>
       </Card>
+
+
       <ModalMovie
         modalData={props.data}
         handleClose={handleClose}
