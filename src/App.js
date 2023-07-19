@@ -10,10 +10,13 @@ import './components/movie/Movie.css'
 import './components/navB/NavB.css'
 import './components/movieList/MovieList.css'
 import './components/modalMovie/ModalMovie.css'
+import './components/favList/FavList.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
   return (
-    <Router> {/* Add the Router component */}
+    <Router> 
       <div className="App">
         <NavB/>
         <Routes>

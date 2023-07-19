@@ -23,6 +23,7 @@ export default function Home() {
 
   // console.log('comment handler ', data);
 
+  console.log(data)
   return (
     <div className="homeDiv">
       <MovieList data={data} />

@@ -37,6 +37,7 @@ export default function ModalMovie({
     let data = {
       t : modalData.title,
       // "y" : modalData.,
+      i : imgCard,
       c : modalData.comment
     }
     console.log("this is the data" ,data);
