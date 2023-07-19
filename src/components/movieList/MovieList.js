@@ -2,19 +2,17 @@ import React from "react";
 import Movie from "../movie/Movie";
 
 function MovieList({ data }) {
-  //newMovie will hold the whole object, and the id to know witch movie the user is commenting on 
-  function commentHandler(newMovie, id){
+  function commentHandler(newMovie, id) {
     console.log(newMovie, id, "from movie List component");
-    data.map((movies)=>{
-      if(movies.id === id){
+    data.map((movies) => {
+      if (movies.id === id) {
         movies.comment = newMovie.userComment;
         return movies;
-      }else{
+      } else {
         return movies;
       }
-    })
-  console.log('comment handler ', data);
-
+    });
+    console.log("comment handler ", data);
   }
 
   return (
@@ -27,4 +25,3 @@ function MovieList({ data }) {
 }
 
 export default MovieList;
-//adding commint

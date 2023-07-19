@@ -11,37 +11,22 @@ function Movie(props) {
 
   return (
     <>
-      {/* <Card style={{ width: "20rem", height: "20rem" }} className="mainCard">
+      <Card className="mainCard" id="ca">
         <Card.Img variant="top" src={imgCard} className="cardImg" />
         <Card.Body className="cardB">
           <Card.Title>{props.data.title}</Card.Title>
-            <Button
-              className="buttonModal"
-              onClick={handleShow}
-              style={{ backgroundColor: "rgb(57, 62, 70)", border: "solid " }}
-            >
-              Show Modal
-            </Button>
+          <Button
+            className="buttonModal"
+            onClick={handleShow}
+            style={{ backgroundColor: "rgb(57, 62, 70)", border: "solid " }}
+          >
+            Show Modal
+          </Button>
         </Card.Body>
-      </Card> */}
+      </Card>
 
-      {/* <Card style={{ width: '18rem' }} className="mainCard"> */}
-      <Card className="mainCard" id="ca">
-      <Card.Img variant="top" src={imgCard} className="cardImg" />
-        <Card.Body className="cardB">
-          <Card.Title>{props.data.title}</Card.Title>
-            <Button
-              className="buttonModal"
-              onClick={handleShow}
-              style={{ backgroundColor: "rgb(57, 62, 70)", border: "solid " }}
-            >
-              Show Modal
-            </Button>
-        </Card.Body>
-    </Card>
-    
       <ModalMovie
-      commentHandler={props.commentHandler}
+        commentHandler={props.commentHandler}
         modalData={props.data}
         handleClose={handleClose}
         handleShow={handleShow}

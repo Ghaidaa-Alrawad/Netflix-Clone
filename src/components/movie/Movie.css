@@ -6,10 +6,6 @@
   gap: 20px;
 }
 
-/* #ca{
-height: 20%;
-} */
-
 .button {
   display: flex;
   flex-wrap: wrap;
@@ -21,17 +17,14 @@ height: 20%;
 
 .mainCard:hover {
   background-color: #f0f0f0;
-  /* background-color: aqua; */
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
   transform: scale(1.05);
 }
 
 .cardImg {
   width: 200px;
-    height: 500px;
+  height: 500px;
   object-fit: cover;
-  /* height: 100%; */
-  /* width: 100%; */
 }
 
 .buttonModal:hover {
@@ -39,6 +32,3 @@ height: 20%;
   transform: scale(1.05);
   transition: transform 0.5s ease;
 }
-
-
-

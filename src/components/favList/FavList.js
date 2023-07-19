@@ -69,42 +69,6 @@ export default function FavList() {
   return (
     <div className="mainDiv">
       {favMovies.map((movie, id) => (
-        // <Card key={movie.id} className="favMainCard" id="favCa">
-        //   <Card.Body className="favCardB">
-        //     <Card.Title>{movie.title}</Card.Title>
-
-        //     <div>
-        //     <img src={movie.img} className="favImg" />
-
-        //      <input defaultValue={movie.comments}  onBlur={
-        //         (e)=>{
-        //             setValue(e.target.value)
-        //             console.log(e.target.value)
-        //         }
-        //       }/ >
-
-        //     </div>
-        //     <div className="favButton">
-        //       <Button
-        //         className="buttonModal"
-        //         style={{ backgroundColor: "rgb(57, 62, 70)", border: "solid " }}
-        //         onClick={() => handleDelete(movie.id)}
-        //       >
-        //         DELETE{" "}
-        //       </Button>
-
-        //       <Button
-        //         className="favButton"
-        //         style={{ backgroundColor: "rgb(57, 62, 70)", border: "solid " }}
-        //         onClick={() => handleUpdate(movie.id, value)}
-        //       >
-        //         Update{" "}
-        //       </Button>
-
-        //     </div>
-        //   </Card.Body>
-        // </Card>
-
         <Card key={movie.id} style={{ width: "18rem" }} className="favMainCard">
           <Card.Img variant="top" src={movie.img} />
           <Card.Body>

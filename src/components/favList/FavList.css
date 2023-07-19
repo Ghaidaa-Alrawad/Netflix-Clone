@@ -7,19 +7,6 @@
   margin-top: 20px;
 }
 
-/* #favCa {
-  height: 20%;
-} */
-
-/* .favButton {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  margin-top: 10px;
-} */
-
 .favMainCard:hover {
   background-color: #f0f0f0;
   /* background-color: aqua; */

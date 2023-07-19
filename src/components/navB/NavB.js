@@ -1,13 +1,7 @@
 import React from "react";
-// import Container from "react-bootstrap/Container";
-// import Nav from "react-bootstrap/Nav";
-// import { Navbar as BootstrapNavbar } from "react-bootstrap";
-
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-// import Nav from 'react-bootstrap/Nav';
-
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
 
 export default function NavB() {
   return (
@@ -21,14 +15,6 @@ export default function NavB() {
           </Nav>
         </Container>
       </Navbar>
-      {/* <Nav variant="underline" defaultActiveKey="/home">
-      <Nav.Item>
-        <Nav.Link href="/">Home</Nav.Link>
-      </Nav.Item>
-      <Nav.Item>
-        <Nav.Link href="/favorite">FavList</Nav.Link>
-      </Nav.Item>
-    </Nav> */}
     </>
   );
 }
