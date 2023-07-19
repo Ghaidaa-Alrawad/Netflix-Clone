@@ -23,18 +23,19 @@ function Movie(props) {
             >
               Show Modal
             </Button>
-            <Button
+            {/* <Button
               className="buttonModal"
               style={{ backgroundColor: "rgb(57, 62, 70)", border: "solid " }}
             >
               ❤
-            </Button>
+            </Button> */}
           </div>
         </Card.Body>
       </Card>
 
 
       <ModalMovie
+      commentHandler={props.commentHandler}
         modalData={props.data}
         handleClose={handleClose}
         handleShow={handleShow}

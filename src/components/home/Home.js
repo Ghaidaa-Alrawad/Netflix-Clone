@@ -12,9 +12,16 @@ export default function Home() {
     setData(trendingMovies);
   }
 
+  // //newMovie will hold the whole object, and the id to know witch movie the user is commenting on 
+  // function commentHandler(newMovie, id){
+
+  // }
+
   useEffect(() => {
     getTrendingMovies();
   }, []);
+
+  // console.log('comment handler ', data);
 
   return (
     <div className="homeDiv">
