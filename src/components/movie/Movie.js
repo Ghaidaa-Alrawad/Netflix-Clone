@@ -10,12 +10,11 @@ function Movie(props) {
   const imgCard = `https://image.tmdb.org/t/p/w500${props.data.poster_path}`;
 
   return (
-    <div>
-      <Card style={{ width: "20rem", height: "20rem" }} className="mainCard">
+    <>
+      {/* <Card style={{ width: "20rem", height: "20rem" }} className="mainCard">
         <Card.Img variant="top" src={imgCard} className="cardImg" />
         <Card.Body className="cardB">
           <Card.Title>{props.data.title}</Card.Title>
-          <div className="button">
             <Button
               className="buttonModal"
               onClick={handleShow}
@@ -23,17 +22,24 @@ function Movie(props) {
             >
               Show Modal
             </Button>
-            {/* <Button
+        </Card.Body>
+      </Card> */}
+
+      {/* <Card style={{ width: '18rem' }} className="mainCard"> */}
+      <Card className="mainCard" id="ca">
+      <Card.Img variant="top" src={imgCard} className="cardImg" />
+        <Card.Body className="cardB">
+          <Card.Title>{props.data.title}</Card.Title>
+            <Button
               className="buttonModal"
+              onClick={handleShow}
               style={{ backgroundColor: "rgb(57, 62, 70)", border: "solid " }}
             >
-              ❤
-            </Button> */}
-          </div>
+              Show Modal
+            </Button>
         </Card.Body>
-      </Card>
-
-
+    </Card>
+    
       <ModalMovie
       commentHandler={props.commentHandler}
         modalData={props.data}
@@ -41,7 +47,7 @@ function Movie(props) {
         handleShow={handleShow}
         show={show}
       />
-    </div>
+    </>
   );
 }
 

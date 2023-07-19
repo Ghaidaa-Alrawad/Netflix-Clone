@@ -14,7 +14,7 @@ export default function NavB() {
     <>
       <Navbar bg="dark" data-bs-theme="dark" className="navbarClass">
         <Container id="contain">
-          {/* <Navbar.Brand href="/">Netflix Clone</Navbar.Brand> */}
+          <Navbar.Brand href="/">Netflix Clone</Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/favorite">FavList</Nav.Link>
